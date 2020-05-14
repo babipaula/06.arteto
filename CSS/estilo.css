@@ -41,9 +41,17 @@ h2{
 
 }
 
+
 .conteudo{
     
     height: 100vh;
+    display: flex;
+    text-align: center;
+}
+
+.conteudo img{
+    align-self: center;
+    max-width: 25%;
 }
 
 .menurodape{
