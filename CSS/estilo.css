@@ -1,0 +1,54 @@
+*{
+
+    color: #757575 ;
+    font-size: 1.25rem;
+
+}
+body{
+    width: 100vw;
+
+}
+@font-face{
+    font-family: "URW Geometric Light";
+    src: url("../Fontes/URW_GEOMETRIC/URWGEOMETRIC-LIGHT.OTF");
+
+}
+
+@font-face{
+    font-family: "URW Geometric Bold";
+    src: url("../Fontes/URW_GEOMETRIC/URWGEOMETRIC-BOLD.OTF");
+}
+
+
+p{
+    font-family: "URW Geometric Light";
+
+}
+
+h1,h2,h3,h4{
+    font-family: "URW Geometric Bold";
+    color: #000000;
+}
+
+h2{
+    color: #757575;
+}
+
+.borda{
+    border: 1px solid #000000;
+
+}
+
+.conteudo{
+    
+    height: 100vh;
+}
+
+.menurodape{
+    height: 20vh;
+}
+
+#Home{
+    background: url("../Imagens/Banner/03.png");
+    background-size: cover;
+}
