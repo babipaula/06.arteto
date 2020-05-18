@@ -1,13 +1,22 @@
 *{
 
     color: #757575 ;
-    font-size: 1.25rem;
+    font-size: 1.25rem; 
    
 
 }
+
+.clear{
+
+    clear: both;
+
+}
+
 body{
     width: 100vw;
     background: #fafafa;
+    padding: 0;
+    margin: 0;
 
 }
 @font-face{
@@ -54,11 +63,74 @@ h2{
     max-width: 25%;
 }
 
+#Sobre{
+    width: 100vw;
+    margin-top: 1rem;
+}
+
+#Sobre .texto{
+
+    margin-left: 3%;
+    
+
+}
+
+#Sobre h2{
+
+    font-size: 3rem;
+
+}
+
+#Sobre img{
+    max-width: 100%;
+}
+
 .menurodape{
     height: 20vh;
 }
 
 #Home{
+    display: flex;
+    width: 100vw;
+    padding: 0%;
+    height: 100vh;
+}
+#Menu{
+    position: absolute;
+    z-index: 2;
+
+}
+
+#Banner{
+    z-index: 1;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+
+}
+.banner{
+    
+    background-size: contain;
+    background-position: bottom right;
+    height: 100%;
+    width: 100%;
+}
+
+#banner_img1{
+    background: url("../Imagens/Banner/01.jpg");
+}
+
+#banner_img2{
+    background: url("../Imagens/Banner/02.jpg");
+}
+
+#banner_img3{
     background: url("../Imagens/Banner/03.png");
-    background-size: cover;
+}
+
+@media screen and (max-width:1024px){
+
+    .conteudo{
+        height: auto;
+    }
 }
