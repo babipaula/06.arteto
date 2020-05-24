@@ -46,7 +46,7 @@ h2{
 }
 
 .borda{
-    border: 1px solid #000000;
+    border: 1px solid gray;
 
 }
 
@@ -71,20 +71,64 @@ h2{
 
 #portfolio_img_principal{
 
-    background-image: url("../Imagens/aviso/imagem.svg");
+    background-image: url("../Imagens/Portfolio/imagem1.jpg");
     background-size: cover;
+    background-position: center;
     height: 25rem;
+    display: flex;
 }
 
 
 .portfolio_img{
 
+    cursor: pointer;
     height: 5rem;
-    background-image: url("../Imagens/aviso/imagem.svg");
+    background-position: center;
     background-size: cover;
 
 }
 
+#portfolio_img_1{
+    background-image: url("../Imagens/Portfolio/imagem1.jpg");
+}
+
+#portfolio_img_2{
+    background-image: url("../Imagens/Portfolio/imagem2.jpg");
+}
+
+
+#portfolio_img_3{
+    background-image: url("../Imagens/Portfolio/imagem3.jpg");
+}
+
+#portfolio_img_4{
+    background-image: url("../Imagens/Portfolio/imagem4.jpg");
+}
+
+#portfolio_img_5{
+    background-image: url("../Imagens/Portfolio/imagem5.jpg");
+}
+
+#portfolio_img_6{
+    background-image: url("../Imagens/Portfolio/imagem6.jpg");
+}
+
+
+#controle_esquerdo{
+    cursor: pointer;
+    position: absolute;
+    max-height: 2rem;
+    left: 0rem;
+
+}
+
+#controle_direito{
+    cursor: pointer;
+    position: absolute;
+    max-height: 2rem;
+    right: 0rem; 
+
+}
 
 #Sobre{
     width: 100vw;
@@ -149,6 +193,10 @@ h2{
 
 #banner_img3{
     background: url("../Imagens/Banner/03.png");
+}
+
+#Instagram{
+    margin-top: 5rem;
 }
 
 @media screen and (max-width:1024px){
