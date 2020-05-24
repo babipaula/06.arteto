@@ -63,6 +63,29 @@ h2{
     max-width: 25%;
 }
 
+#Portfolio{
+
+    width: 95%;
+    margin: auto;
+}
+
+#portfolio_img_principal{
+
+    background-image: url("../Imagens/aviso/imagem.svg");
+    background-size: cover;
+    height: 25rem;
+}
+
+
+.portfolio_img{
+
+    height: 5rem;
+    background-image: url("../Imagens/aviso/imagem.svg");
+    background-size: cover;
+
+}
+
+
 #Sobre{
     width: 100vw;
     margin-top: 1rem;
@@ -110,7 +133,7 @@ h2{
 }
 .banner{
     
-    background-size: contain;
+    background-size: cover;
     background-position: bottom right;
     height: 100%;
     width: 100%;
