@@ -36,14 +36,15 @@ p{
 
 }
 
-h1,h2,h3,h4{
+h1,h2,h3,h4,h5{
     font-family: "URW Geometric Bold";
     color: #000000;
 }
 
-h2{
+ h2{
     color: #757575;
 }
+
 
 .borda{
     border: 1px solid gray;
@@ -118,7 +119,7 @@ h2{
     cursor: pointer;
     position: absolute;
     max-height: 2rem;
-    left: 0rem;
+    left: -1rem;
 
 }
 
@@ -126,7 +127,7 @@ h2{
     cursor: pointer;
     position: absolute;
     max-height: 2rem;
-    right: 0rem; 
+    right: -1rem; 
 
 }
 
@@ -197,6 +198,37 @@ h2{
 
 #Instagram{
     margin-top: 5rem;
+}
+
+.solucoesimg{
+    background-size: cover;
+    background-position: center;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 20rem;
+    margin:auto;
+    margin-bottom: 1rem;
+}
+
+#Produto h5{
+    color: #757575;
+}
+
+#imagem_marcenaria{
+
+    background-image: url('../Imagens/Solucoes/marcenaria.jpg');
+}
+
+#imagem_serralheria{
+    background-image: url('../Imagens/Solucoes/serralheria.jpg');
+}
+
+#imagem_estofados{
+    background-image: url('../Imagens/Solucoes/estofado2.jpg');
+}
+
+#imagem_personalizados{
+    background-image: url('../Imagens/Solucoes/personalizacao.jpg');
 }
 
 @media screen and (max-width:1024px){
