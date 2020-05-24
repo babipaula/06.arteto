@@ -75,7 +75,7 @@ h1,h2,h3,h4,h5{
     background-image: url("../Imagens/Portfolio/imagem1.jpg");
     background-size: cover;
     background-position: center;
-    height: 25rem;
+    height: 30rem;
     display: flex;
 }
 
