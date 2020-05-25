@@ -218,7 +218,7 @@ h1,h2,h3,h4,h5{
     margin-bottom: 1rem;
 }
 
-#Produto h5{
+#Produto h5,h6{
     color: #757575;
 }
 
@@ -237,6 +237,14 @@ h1,h2,h3,h4,h5{
 
 #imagem_personalizados{
     background-image: url('../Imagens/Solucoes/personalizacao.jpg');
+}
+
+#whats{
+    position: fixed;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    max-width: 3.5rem;
+    max-height: 3.5rem;
 }
 
 @media screen and (max-width:1024px){
