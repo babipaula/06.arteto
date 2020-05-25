@@ -45,6 +45,10 @@ h1,h2,h3,h4,h5{
     color: #757575;
 }
 
+h3{
+    color: #757575;
+
+}
 
 .borda{
     border: 1px solid gray;
@@ -67,6 +71,7 @@ h1,h2,h3,h4,h5{
 #Portfolio{
 
     width: 95%;
+    height: 130vh;
     margin: auto;
 }
 
@@ -162,7 +167,7 @@ h1,h2,h3,h4,h5{
 }
 
 .menurodape{
-    height: 40vh;
+    height: 10vh;
     background-color: #bdbdbd;
 }
 
@@ -210,8 +215,44 @@ h1,h2,h3,h4,h5{
     background: url("../Imagens/Banner/03.png");
 }
 
-#Instagram{
-    margin-top: 5rem;
+#Contato{
+    height: 130vh;
+
+    
+}
+
+#Contato input, textarea{
+
+    font-size: 1rem;
+
+}
+
+#Contato label{
+    color: black;
+    font-size: 0.75rem;
+}
+
+#Contato input,select{
+    border-top: none ;
+    border-left: none;
+    border-right: none;
+}
+
+input, textarea{
+    width: 100%;
+}
+
+textarea{
+    height: 10rem;
+}
+
+#i_enviar:hover{
+    cursor: pointer;
+    text-decoration: underline black;
+}
+
+#contato_txt{
+    margin: auto;
 }
 
 .solucoesimg{
