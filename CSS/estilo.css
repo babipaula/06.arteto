@@ -162,7 +162,13 @@ h1,h2,h3,h4,h5{
 }
 
 .menurodape{
-    height: 20vh;
+    height: 40vh;
+    background-color: #bdbdbd;
+}
+
+
+.menurodape p {
+    font-size: 1rem;
 }
 
 #Home{
@@ -245,6 +251,17 @@ h1,h2,h3,h4,h5{
     bottom: 0.5rem;
     max-width: 3.5rem;
     max-height: 3.5rem;
+}
+
+#Maps{
+    display: flex;
+}
+
+#Maps iframe{
+    margin: auto;
+}
+#txt{
+    margin: auto;
 }
 
 @media screen and (max-width:1024px){
